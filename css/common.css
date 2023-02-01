@@ -1,0 +1,21 @@
+body {
+    font-family: 'Lora' serif;
+    color: #495057;
+    font-size: .875rem;
+    background: #F8F9FA;
+}
+
+/*---------*/
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+
+[class*=__container]{
+    max-width: 83.125rem;
+    padding-left: 15px;
+    padding-right: .9375rem;
+    margin: 0 auto;
+}
